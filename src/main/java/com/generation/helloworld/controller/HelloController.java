@@ -17,4 +17,13 @@ public class HelloController {
     public String meuNome() {
     	return "<b>Gabriel</b>";
     }
+	@GetMapping("/bsm")
+    public String bsm() {
+    	return "<b>Mentalidade de Crecimento, Perisistência, Orientação ao Futuro, Orientação ao Detalhe, Gestão de Tempo, Comunicação não Agressiva</b>";
+    }
+	@GetMapping("/obj")
+    public String objetivo() {
+    	return "<b>Meu objetivo é ser persistente, ás vezes os desafios nos atrapalha á manter o foco e seguir. Essa semana mesmo com dificuldade de compreensão das atividades foquei em ser persistente e continuar.</b>";
+    }
 }
+
